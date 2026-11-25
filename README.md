@@ -9,6 +9,20 @@ React website (client/)  →  Express API (server/)  →  MongoDB
 
 > ⚠️ ဒီ project က **demo/sample data** ပဲ သုံးပါတယ်။ တကယ့် လူနာရဲ့ ကျန်းမာရေး အချက်အလက် မထည့်ပါနဲ့။
 
+## အကျဉ်း — ဒီ project က ဘာလဲ? (At a glance)
+
+| | |
+| --- | --- |
+| **Project** | Clinic Appointment Website |
+| **အမျိုးအစား** | Full-stack **browser website** — clinic ချိန်းဆိုမှု (appointment booking) စနစ်။ ဖုန်း app မဟုတ်ပါဘူး။ |
+| **ဘာလုပ်ပေးလဲ** | Patient — doctor ရှာ, slot ကြည့်, ချိန်းယူ/ဖျက်/ရွှေ့ · Admin — doctor စီမံ, ချိန်းဆိုမှု စီမံ, dashboard ကြည့် |
+| **Tech** | React + Vite · Node.js + Express · MongoDB + Mongoose · JWT + bcryptjs |
+| **Ports** | API `5000` · Website `5173` |
+| **Demo login** | `patient@clinic.test / Patient@123`, `admin@clinic.test / Admin@123` |
+| **အခြေအနေ** | ပြီးစီးပြီး demo project။ **fictional data** ပဲ ပါတယ် — တကယ့် လူနာအချက်အလက် မထည့်ပါနဲ့။ |
+
+**In short (English):** A browser-based clinic appointment booking system with separate patient and admin areas. Patients search doctors, view available slots and manage bookings; admins manage doctors, appointments and dashboard stats. Built with React, Express and MongoDB as a demo project using fictional data only.
+
 ---
 
 ## 1. ပါဝင်တဲ့ အဓိက အရာတွေ
