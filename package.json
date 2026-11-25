@@ -1,0 +1,15 @@
+{
+  "name": "clinic-appointment-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-stack clinic appointment booking app: Express/MongoDB API and React/Vite client.",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "start:server": "npm start --prefix server",
+    "seed": "npm run seed --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "build:client": "npm run build --prefix client",
+    "preview:client": "npm run preview --prefix client"
+  }
+}
